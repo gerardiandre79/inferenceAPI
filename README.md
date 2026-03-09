@@ -14,4 +14,6 @@ This project demonstrates how to serve ML models in production, with caching, co
 Client → FastAPI → ML Model → Redis Cache
 
 ## Run
-1. Build and run Docker:
+1. Build and run Docker: docker-compose up --build
+2. API available at `http://localhost:8000`
+3. Swagger docs: `http://localhost:8000/docs`
